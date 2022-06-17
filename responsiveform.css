@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("images/bg-intro-desktop.png");
+    font-size: 16px;
+    font-family: 'poppins';
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+.sec1{
+    color: white;
+    flex-basis: 30%;
+    position: relative;
+    margin-left: 100px;
+}
+.sec1 h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.sec2{
+    flex-basis: 50%;
+    
+}
+.sec2 span{
+    color: rgba(238, 229, 229, 0.836)
+}
+.details{
+    font-weight: ;
+}
+.frm{
+    background-color: white;
+    padding: 30px 10px 60px 10px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+.frm input{
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    
+}
+.frm p{
+    text-align: center;
+    
+}
+.promo{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.promo p{
+    padding: 10px;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+
+.sub{
+    display: block;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+input{
+  
+}
+.terms{
+    color: gray
+}
+.terms span{
+    color: red;
+}
+
+
+@media only screen and (max-width:375px) {
+    body{
+        background-image: url("images/bg-intro-mobile.png");
+    }
+    .container{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .sec1{
+        margin-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .sec1 h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .sec1 p{
+        text-align: center;
+        width: 100%;
+    }
+    .sec2{
+        margin: 0 15px;
+    }
+    .promo{
+        height: 70px;
+    }
+    .promo p{
+        width: 180px;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
